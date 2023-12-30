@@ -105,6 +105,7 @@ public struct SettingStack: View {
                     NavigationStack {
                         main
                     }
+                    .navigationBarHidden(true)
                 }
                 else {
                     NavigationView {
