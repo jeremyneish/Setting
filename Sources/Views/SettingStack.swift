@@ -105,12 +105,13 @@ public struct SettingStack: View {
                     NavigationStack {
                         main
                     }
-                    .navigationBarHidden(true)
                 }
                 else {
                     NavigationView {
                         main
                     }
+                    .navigationBarHidden(true)
+
                 }
             }
             .environment(\.edgePadding, edgePadding)
